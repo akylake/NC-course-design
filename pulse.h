@@ -1,0 +1,16 @@
+void PulseOutX(int PulseNumber);
+void PulseOutY(int PulseNumber);
+void PulseOutZ(int PulseNumber);
+void SetPulseOutRatio(int ratio);
+void SetXdirReverse();
+void SetYdirReverse();
+void SetZdirReverse();
+void PulseOutXY(int PulseNumberX,int PulseNumberY);
+double GetPositionX();
+double GetPositionY();
+double GetPositionZ();
+int IsXatLimit();
+int IsYatLimit();
+int IsZatLimit();
+int InitController(); 
+int CloseController();
